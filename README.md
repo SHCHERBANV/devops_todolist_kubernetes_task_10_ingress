@@ -45,3 +45,16 @@ Create a kubernetes manifest for a pod which will containa ToDo app container:
 1. There should not be any requests failing with 404 status code in browser console.
 1. `README.md` should have instructuions on how to validate the changes
 1. Create PR with your changes and attach it for validation on a platform.
+
+
+1. Use comand to apply all manifests from .infrastructure
+
+```sh
+./bootstrap.sh
+```
+
+1. Use comand to validate all updates and livenes off application
+   
+```sh
+./validation.sh
+```
